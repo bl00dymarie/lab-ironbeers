@@ -1,5 +1,36 @@
 body {
     font-family: 'Marvel', sans-serif;
-} 
+}
+.topnav {
+    overflow: hidden;
+    background-color: #2962ff;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.button {
+    background-color:#2962ff; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 
