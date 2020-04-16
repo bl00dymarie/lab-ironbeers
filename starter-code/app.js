@@ -14,6 +14,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // add the partials here:
 
 // add the routes here:
+app.get('/beers', (req, res) => res.render('beers'));
+app.get('/random-beers', (req, res) => res.render('random-beers'));
 app.get('/', (req, res) => res.render('index'));
+
 
 app.listen(3000, () => console.log('🏃‍ on port 3000'));
